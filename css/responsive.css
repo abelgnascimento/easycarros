@@ -1,0 +1,108 @@
+@media(max-width:1200px){}
+@media(max-width:991px){
+    .hero_section a{
+        padding: 1.5rem 3rem;
+        font-size: 1.8rem;
+    }
+    .hero_section h1{
+        font-size: 2.8rem;
+    }
+    .hero_section h2{
+        font-size: 1.6rem;
+    }
+    .hero_section_title img{
+        width: 100%;
+        max-width: 35rem;
+    }
+    .hero_section ul img{
+        width: 14rem;
+    }
+}
+@media(max-width:768px){
+    .container .main_nav{
+        display: none;
+    }
+    .our_services .div_sec{
+        flex-direction: column;
+        text-align: center;
+    }
+    .our_services div {
+        padding-top: 2rem;
+    }
+    .our_services h2{
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+    }
+    .our_services .div_sec div{
+        margin-bottom: 4rem;        
+    }
+    .our_servicess h2{
+        font-size: 2.8rem;
+    }
+    .our_servicess ul li p{
+        font-size: 1.4rem;
+    }
+    .our_servicess ul li img{
+        width: 60px;
+    }
+
+    /* MENU-MOBILE */
+    .mobile_menu_icon{
+        display: block;
+    }
+    .mobile_menu_icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .container_menu_mobile.container{
+        display: flex;
+        justify-content: center;
+    }
+    .mobile_item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .mobile_menu{
+        background-color: #35bae2;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        border-radius: 4rem;
+    }
+}
+
+
+
+@media(max-width:600px){
+    .hero_section h1{
+        font-size: 3.6rem;
+    }
+    .hero_section h2{
+        font-size: 2rem;
+    }
+    .hero_section_title{
+        flex-direction: column;
+        padding-top: 5rem;
+    }
+    .hero_section_title img{
+        max-width: 80rem;
+    }
+    .hero_section ul{
+        flex-wrap: wrap;
+    }
+    .hero_section ul li{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero_section ul img{
+        width: 17 rem;
+    }
+}
+@media(max-width:480px){}

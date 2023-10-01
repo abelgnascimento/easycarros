@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/oficinas.css">
+    <link rel="stylesheet" href="./css/sinistro.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html"><img src="./images/logo.png" alt="Logo easy carros"></a>
+                    </div>
+                    <nav>
+                        <ul class="main_nav">
+                            <li><a href="index.html">Serviços</a></li>
+                            <li><a href="oficinas.html">Oficinas</a></li>
+                            <li><a href="sinistro.html">Informe Sinistro</a></li>
+                            <li><a class="button button_nav" href="cadastro.html">Solicitar Orçamento</a></li>
+                        </ul>
+    
+                        <div class="mobile_menu_icon">
+                            <button onclick="menuShow()"class="button_press_mobile"><img src="./images/icon_menu/menu_white_36dp.svg" alt=""></button>
+                        </div>
+                    </nav>
+                </div>
+                <div class="container_menu_mobile container">
+                    <ul class="mobile_menu">
+                        <li class="mobile_item"><a href="index.html">Serviços</a></li>
+                        <li class="mobile_item"><a href="oficinas.html">Oficinas</a></li>
+                        <li class="mobile_item"><a href="sinistro.html">Informe Sinistro</a></li>
+                        <li><a class="button button_nav" href="cadastro.html">Solicitar Orçamento</a></li>
+                    </ul>
+                </div>
+            </header>
+        </header>
+
+        <section>
+            <div class="oficinas container">
+                <div>
+                    <h1>Informe de sinistros</h1>
+                    <h2>iremos te indicar a oficina mais próxima.<br> Informe a placa:</h2>
+                </div>  
+                <div>
+                    <input type="text" placeholder="FXY-0I48" class="input_board">
+                </div> 
+            </div>
+        </section>
+
+        <section class="sec_veichle">
+            <div class="section_veichle container">
+                <div>
+                    <div>
+                        <label for="modelo">Modelo</label>
+                        <input type="text" id="modelo" name="modelo" placeholder="Ford Ká" disabled>
+                    </div>
+                    <div>
+                        <label for="placa">Placa</label>
+                        <input type="text" id="placa" name="placa" placeholder="FXY-0I48" disabled class="input_board_change">
+                    </div>
+                    <div>
+                        <label for="chassi">Chassi</label>
+                        <input type="text" id="chassi" name="chassi" placeholder="9BRBLWHEXG0107721" disabled>
+                    </div>
+                    <div>
+                        <label for="ano">Ano Fabricado</label>
+                        <input type="text" id="ano" name="ano" placeholder="2017" disabled>
+                    </div>
+                </div>
+                   
+                <div class="model_veichle">
+                    <img src="./images/ford_ka.png" alt="">
+                </div>
+            </div>
+            <div class="align_center">
+                <input type="submit" value="Solicitar Suporte" id="submit_form">    
+            </div>
+            
+        </section>
+
+
+
+
+       
+    <footer>
+        <div>
+            <p>Todos os diretos reservados</p>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

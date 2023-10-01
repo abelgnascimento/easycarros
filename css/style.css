@@ -1,0 +1,157 @@
+.wrapper{
+    background: url(../images/bg-hero.svg) no-repeat center center;
+    background-size: cover;
+}
+
+.mobile_menu_icon{
+    display: none;
+}
+
+.mobile_menu{
+    display: none;
+}
+
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img{
+    width: 15rem;
+}
+header .main_nav{
+    display: flex;
+    align-items: center;
+    gap:3rem;
+    margin-left: 2rem;
+}
+header a{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.2s linear;
+}
+header a:hover{
+    color:#074052;
+}
+header .button:hover{
+    color:#000;
+    background-color: #FFC800;
+    border: 1px solid transparent;
+}
+/* HERO SECTION */
+
+.hero_section{
+    width: 100%;
+    height: 100%;
+}
+.hero_section h1{
+    font-size: 5.4rem;
+    color:#fff;
+}
+.hero_section h2{
+    color:#fff;
+    margin-top: 3rem;
+}
+.hero_section a, .our_services.button{
+    color:#000;
+    background-color: #FFC800;
+    border: none;
+    font-size: 2.2rem;
+    transition: 0.2s linear;
+    padding: 2rem 4rem;
+    margin-bottom: 2rem;
+}
+.hero_section a:hover, .our_services.button:hover{
+    background-color: #dbac01;
+}
+
+.hero_section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_section ul img{
+    width: 20rem;
+    filter: grayscale(100%)
+}
+.hero_section ul img:hover{
+    filter: grayscale(0)
+}
+.hero_section_title{
+    display: flex;
+    align-items: center;
+}
+.hero_section_title img{
+    object-fit: cover;
+    width: 100%;
+    max-width: 60rem;
+    filter: grayscale(100%)
+}
+
+/* OUR SERVICES */
+
+.our_services div{
+    padding-top: 10rem;
+}
+.div_sec p{
+    font-size: 1.8rem;
+}
+.our_services h2, .our_servicess h2{
+    font-size: 5.4rem;
+}
+.our_services .div_sec{
+    display: flex;
+    align-items: center;
+}
+.our_servicess ul{
+    margin: 4rem 0rem;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+.our_servicess ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.our_servicess ul li img{
+    width: 80px;
+    filter:brightness(20%)
+}
+.our_servicess ul li p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color:#fff;
+    max-width: 25rem;
+    text-align: center;
+}
+
+.our_servicess{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    padding:10rem 0rem;
+}
+
+.our_servicess h2{
+    text-align: center;
+    color:#fff;
+}
+.button_services{
+    align-self: center;
+    margin-bottom: 2rem;
+}
+.our_services.button{
+    font-size: 1.8rem;
+}
+footer{
+    padding: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+.open{
+    display: flex;
+}

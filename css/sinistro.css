@@ -1,0 +1,81 @@
+.oficinas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"]{
+    border-radius: 2rem;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2rem;
+}
+label{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    color:#fff;
+}
+input[type="text"]:focus{
+    border: 2px solid #35CAE2;
+}
+.section_veichle input::placeholder{
+    color:#000;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.section_veichle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_veichle div{
+    margin-bottom: 3rem;
+}
+.sec_veichle{
+    display: flex;
+    flex-direction: column;
+}
+input[type="submit"]{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 4rem;
+    border: 1px solid #fff;
+    justify-self: center;
+    cursor: pointer;
+    color:#fff;
+    background-color: transparent;
+    transition: all 0.2s linear;
+}
+input[type="submit"]:hover{
+    background-color: #FFC800;
+    color:#000;
+    border: 1px solid transparent;
+}
+.align_center{
+    align-self: center;
+}
+.model_veichle img{
+    width: 100%;
+    max-width: 100rem;
+}
+
+@media (max-width:800px){
+    .section_veichle{
+        flex-direction: column;
+    }
+    .section_veichle form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section_veichle form div{
+        margin-right:7rem;
+    }
+}
+@media (max-width:600px){
+    .section_veichle form{
+       display: flex;
+    }
+}
